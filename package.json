@@ -1,0 +1,22 @@
+{
+  "name": "mnioc",
+  "displayName": "Mnioc",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Mnioc",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Mnioc-color-theme.json"
+      }
+    ]
+  }
+}
