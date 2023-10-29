@@ -213,48 +213,8 @@
         // "listFilterWidget.outline": "#424450",
         // "listFilterWidget.noMatchesOutline": "#FF5555"
     },
+    "semanticHighlighting": true,
     "tokenColors": [
-        {
-            "scope": [
-                "emphasis"
-            ],
-            "settings": {
-                "fontStyle": "italic"
-            }
-        },
-        {
-            "scope": [
-                "strong"
-            ],
-            "settings": {
-                "fontStyle": "bold"
-            }
-        },
-        {
-            "scope": [
-                "header"
-            ],
-            "settings": {
-                "foreground": "#BD93F9"
-            }
-        },
-        {
-            "scope": [
-                "meta.diff",
-                "meta.diff.header"
-            ],
-            "settings": {
-                "foreground": "#6272A4"
-            }
-        },
-        {
-            "scope": [
-                "markup.inserted"
-            ],
-            "settings": {
-                "foreground": "#50FA7B"
-            }
-        },
         {
             "scope": [
                 "markup.deleted"
@@ -1166,6 +1126,19 @@
             "settings": {
                 "foreground": "#F1FA8C",
                 "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "source.python support.type.python",
+                "entity.name.type.class",
+                "entity.name.type",
+                "entity.name.class",
+                "entity.name.namespace",
+                "entity.name.scope-resolution",
+            ],
+            "settings": {
+                "foreground": "#8BE9FD"
             }
         }
     ]
